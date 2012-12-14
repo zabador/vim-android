@@ -1,5 +1,4 @@
 #/usr/bin/env sh
-
 echo "[INFO] Checking for ctags."
 command -v ctags > /dev/null 2>&1 || { echo >&2 "[ERR] ctags not found. Please install ctags.\nhttp://ctags.sourceforge.net/"; exit 1; }
 
